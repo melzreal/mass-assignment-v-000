@@ -3,6 +3,8 @@ class Person
 
   def initialize(atts)
     atts.each{|key,value| self.send("#{key}="), value}
-  
   end 
+  
+  
+  
 end
